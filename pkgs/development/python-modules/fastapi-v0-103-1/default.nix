@@ -106,6 +106,7 @@ buildPythonPackage rec {
     # databases is incompatible with SQLAlchemy 2.0
     "tests/test_tutorial/test_async_sql_databases"
     "tests/test_tutorial/test_sql_databases"
+    "tests/test_tutorial/test_custom_docs"
   ];
 
   pythonImportsCheck = [

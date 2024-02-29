@@ -47,7 +47,7 @@ buildPythonPackage rec {
     owner = "tiangolo";
     repo = pname;
     rev = "refs/tags/${version}";
-    hash = "";
+    hash = "sha256-AWvkt+IBk7C8YZwQVqFmkMnYJxm22lyVSQ/2BYJfIss=";
   };
 
   nativeBuildInputs = [

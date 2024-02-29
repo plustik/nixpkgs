@@ -3952,7 +3952,7 @@ self: super: with self; {
   fastai = callPackage ../development/python-modules/fastai { };
 
   fastapi = callPackage ../development/python-modules/fastapi { };
-  fastapi-v0-103-1 = callPackage ../development/python-modules/fastapi-v0-103-1 { };
+  fastapi-v0-103-2 = callPackage ../development/python-modules/fastapi-v0-103-2 { };
 
   fastapi-mail = callPackage ../development/python-modules/fastapi-mail { };
 

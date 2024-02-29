@@ -3,7 +3,7 @@
 , buildPythonPackage
 , aiofiles
 , django_3
-, fastapi-v0-103-1
+, fastapi-v0-103-2
 , msgpack
 , pynacl
 , redis
@@ -32,7 +32,7 @@ buildPythonPackage rec {
   propagatedBuildInputs = [
     aiofiles
     django_3
-    fastapi-v0-103-1
+    fastapi-v0-103-2
     msgpack
     pynacl
     redis
